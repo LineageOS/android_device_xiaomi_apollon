@@ -17,6 +17,10 @@ function blob_fixup() {
 LEGACY_MIFARE_READER=1
 EOF
             ;;
+        vendor/etc/camera/camxoverridesettings.txt)
+            sed -i "s/0x10098/0/g" "${2}"
+            sed -i "s/0x1F/0x0/g" "${2}"
+            ;;
         vendor/lib64/camera/components/com.mi.node.watermark.so)
             "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
