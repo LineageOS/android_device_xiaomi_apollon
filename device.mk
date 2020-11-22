@@ -33,6 +33,7 @@ PRODUCT_PACKAGES += \
     ApertureOverlayDevice \
     FrameworkResOverlayDevice \
     LineageSDKOverlayDevice \
+    LineageSettingsOverlayDevice \
     SettingsOverlayDevice \
     SystemUIOverlayDevice
 
