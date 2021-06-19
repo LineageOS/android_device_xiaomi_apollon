@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/apollo
+DEVICE_PATH := device/xiaomi/apollon
 
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
@@ -21,4 +21,4 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
 # Inherit from the proprietary version
-include vendor/xiaomi/apollo/BoardConfigVendor.mk
+include vendor/xiaomi/apollon/BoardConfigVendor.mk
