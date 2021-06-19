@@ -23,6 +23,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
+PRODUCT_PRODUCT_PROPERTIES += ro.product.vendor.device=apollo
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
