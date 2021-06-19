@@ -21,4 +21,9 @@
     <dimen name="status_bar_padding_top">8dp</dimen>
     <dimen name="status_bar_padding_end">30px</dimen>
 
+    <!-- Margin on the left side of the heads up notification -->
+    <dimen name="heads_up_status_bar_padding_start">6dp</dimen>
+
+    <!-- Rounded corners -->
+    <dimen name="round_cornor_padding">7dp</dimen>
 </resources>
