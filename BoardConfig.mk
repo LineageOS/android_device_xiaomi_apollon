@@ -20,5 +20,8 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
+# OTA assert
+TARGET_OTA_ASSERT_DEVICE := apollon,apollo,apollopro
+
 # Inherit from the proprietary version
 include vendor/xiaomi/apollon/BoardConfigVendor.mk
