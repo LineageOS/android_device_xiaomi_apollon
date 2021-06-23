@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "55d6a813_a403c57b",
+        "filename": "libinit/init_apollon.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 28423
+      },
+      "writtenOn": "2021-06-23T18:23:09Z",
+      "side": 1,
+      "message": "This is pending discussions as apollopro isn\u0027t recognized by Xiaomi\u0027s qcril check which leads to RIL breakage.",
+      "revId": "9b97dce0f9313f0359d22a26eadae7d710bbb0ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
