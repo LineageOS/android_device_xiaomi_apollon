@@ -16,6 +16,29 @@
       "revId": "9b97dce0f9313f0359d22a26eadae7d710bbb0ce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c1d01085_a3df8210",
+        "filename": "libinit/init_apollon.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 27558
+      },
+      "writtenOn": "2021-06-23T18:52:01Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 24,
+        "startChar": 14,
+        "endLine": 24,
+        "endChar": 20
+      },
+      "revId": "9b97dce0f9313f0359d22a26eadae7d710bbb0ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
