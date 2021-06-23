@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "c324bd15_fbd88b5b",
+        "filename": "libinit/init_apollon.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 28423
+      },
+      "writtenOn": "2021-06-23T19:37:25Z",
+      "side": 1,
+      "message": "been decided to drop pro from device name for all devices whose pro SKU doesn\u0027t pass the qcril check.",
+      "parentUuid": "55d6a813_a403c57b",
+      "revId": "9b97dce0f9313f0359d22a26eadae7d710bbb0ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c1d01085_a3df8210",
         "filename": "libinit/init_apollon.cpp",
         "patchSetId": 1
@@ -39,6 +57,30 @@
       "revId": "9b97dce0f9313f0359d22a26eadae7d710bbb0ce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d171b265_3354bc25",
+        "filename": "libinit/init_apollon.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 28423
+      },
+      "writtenOn": "2021-06-23T19:37:25Z",
+      "side": 1,
+      "message": "thanks, fixed",
+      "parentUuid": "c1d01085_a3df8210",
+      "range": {
+        "startLine": 24,
+        "startChar": 14,
+        "endLine": 24,
+        "endChar": 20
+      },
+      "revId": "9b97dce0f9313f0359d22a26eadae7d710bbb0ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
