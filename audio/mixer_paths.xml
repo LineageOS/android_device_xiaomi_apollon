@@ -508,6 +508,9 @@
     <ctl name="Mi_Ultrasound ReportNone" value="0"/>
     <ctl name="Mi_Ultrasound Rx Device" value="0"/>
 
+    <!-- USB Audio Format -->
+    <ctl name="USB_AUDIO_RX Format" value="S24_LE" />
+
     <!-- Add the new path begin -->
     <path name="deep-buffer-playback speaker">
         <ctl name="TERT_MI2S_RX Audio Mixer MultiMedia1" value="1" />
