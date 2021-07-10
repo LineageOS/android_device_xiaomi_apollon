@@ -981,13 +981,13 @@
         <ctl name="TX SMIC MUX1" value="ADC0" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC1 Volume" value="6" />
         <ctl name="TX DEC0 MUX" value="SWR_MIC"/>
         <ctl name="TX SMIC MUX0" value="ADC3" />
         <ctl name="ADC4_MIXER Switch" value="1" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="ADC4 MUX" value="INP5" />
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="6" />
     </path>
 
     <path name="speaker-mic">
@@ -997,7 +997,7 @@
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="ADC4_MIXER Switch" value="1" />
         <ctl name="ADC4 MUX" value="INP5" />
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="6" />
     </path>
     <!-- Dual MIC devices -->
     <path name="handset-dmic-endfire">
@@ -1006,13 +1006,13 @@
         <ctl name="TX SMIC MUX0" value="ADC0" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="6" />
         <ctl name="TX DEC1 MUX" value="SWR_MIC"/>
         <ctl name="TX SMIC MUX1" value="ADC3" />
         <ctl name="ADC4_MIXER Switch" value="1" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="ADC4 MUX" value="INP5" />
-        <ctl name="ADC4 Volume" value="8" />
+        <ctl name="ADC4 Volume" value="6" />
     </path>
 
     <path name="speaker-dmic-endfire">
@@ -1021,13 +1021,13 @@
         <ctl name="TX SMIC MUX0" value="ADC0" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC1 Volume" value="6" />
         <ctl name="TX DEC1 MUX" value="SWR_MIC"/>
         <ctl name="TX SMIC MUX1" value="ADC3" />
         <ctl name="ADC4_MIXER Switch" value="1" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="ADC4 MUX" value="INP5" />
-        <ctl name="ADC4 Volume" value="12" />
+        <ctl name="ADC4 Volume" value="6" />
     </path>
 
     <path name="voice-rec-mic">
@@ -1037,7 +1037,7 @@
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="ADC1_MIXER Switch" value="1" />
         <ctl name="ADC1 Volume" value="12" />
-        <ctl name="TX_DEC0 Volume" value="92" />
+        <ctl name="TX_DEC0 Volume" value="87" />
     </path>
 
     <path name="voice-headphones">
