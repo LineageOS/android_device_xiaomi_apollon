@@ -9,9 +9,6 @@ DEVICE_PATH := device/xiaomi/apollon
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-
 BUILD_BROKEN_DUP_RULES := true
 
 # Display
