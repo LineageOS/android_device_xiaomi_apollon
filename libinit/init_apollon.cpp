@@ -7,8 +7,8 @@
 #include <libinit_kona.h>
 
 static const variant_info_t apollocn_info = {
-    .prop_key = "ro.boot.hwc",
-    .prop_value = "CN",
+    .hwc_value = "CN",
+    .sku_value = "",
 
     .brand = "Redmi",
     .device = "apollo",
@@ -16,11 +16,13 @@ static const variant_info_t apollocn_info = {
     .model = "M2007J3SC",
     .build_description = "apollo-user 11 RKQ1.200826.002 V12.5.1.0.RJDCNXM release-keys",
     .build_fingerprint = "Redmi/apollo/apollo:11/RKQ1.200826.002/V12.5.1.0.RJDCNXM:user/release-keys",
+
+    .nfc = true,
 };
 
 static const variant_info_t apollo_info = {
-    .prop_key = "ro.boot.product.hardware.sku",
-    .prop_value = "std",
+    .hwc_value = "",
+    .sku_value = "std",
 
     .brand = "Xiaomi",
     .device = "apollo",
@@ -28,11 +30,13 @@ static const variant_info_t apollo_info = {
     .model = "M2007J3SY",
     .build_description = "apollo-user 11 RKQ1.200826.002 V12.1.3.0.RJDMIXM release-keys",
     .build_fingerprint = "Xiaomi/apollo_global/apollo:11/RKQ1.200826.002/V12.1.3.0.RJDMIXM:user/release-keys",
+
+    .nfc = true,
 };
 
 static const variant_info_t apollopro_info = {
-    .prop_key = "ro.boot.product.hardware.sku",
-    .prop_value = "pro",
+    .hwc_value = "",
+    .sku_value = "pro",
 
     .brand = "Xiaomi",
     .device = "apollo",
@@ -40,6 +44,8 @@ static const variant_info_t apollopro_info = {
     .model = "M2007J3SG",
     .build_description = "apollopro-user 11 RKQ1.200826.002 V12.1.3.0.RJDMIXM release-keys",
     .build_fingerprint = "Xiaomi/apollopro_global/apollopro:11/RKQ1.200826.002/V12.1.3.0.RJDMIXM:user/release-keys",
+
+    .nfc = true,
 };
 
 static const std::vector<variant_info_t> variants = {
