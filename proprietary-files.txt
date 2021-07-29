@@ -1,4 +1,4 @@
-# All blobs below are extracted from apollo-user 11 RKQ1.200826.002 V12.1.3.0.RJDMIXM release-keys, unless pinned
+# All blobs below are extracted from apollo-user 11 RKQ1.200826.002 V12.5.1.0.RJDMIXM release-keys, unless pinned
 
 # ADSP modules
 vendor/lib/rfsa/adsp/libapps_mem_heap.so

@@ -28,8 +28,8 @@ static const variant_info_t apollo_info = {
     .device = "apollo",
     .marketname = "Mi 10T",
     .model = "M2007J3SY",
-    .build_description = "apollo-user 11 RKQ1.200826.002 V12.1.3.0.RJDMIXM release-keys",
-    .build_fingerprint = "Xiaomi/apollo_global/apollo:11/RKQ1.200826.002/V12.1.3.0.RJDMIXM:user/release-keys",
+    .build_description = "apollo-user 11 RKQ1.200826.002 V12.5.1.0.RJDMIXM release-keys",
+    .build_fingerprint = "Xiaomi/apollo_global/apollo:11/RKQ1.200826.002/V12.5.1.0.RJDMIXM:user/release-keys",
 
     .nfc = true,
 };
@@ -42,8 +42,8 @@ static const variant_info_t apollopro_info = {
     .device = "apollo",
     .marketname = "Mi 10T Pro",
     .model = "M2007J3SG",
-    .build_description = "apollopro-user 11 RKQ1.200826.002 V12.1.3.0.RJDMIXM release-keys",
-    .build_fingerprint = "Xiaomi/apollopro_global/apollopro:11/RKQ1.200826.002/V12.1.3.0.RJDMIXM:user/release-keys",
+    .build_description = "apollopro-user 11 RKQ1.200826.002 V12.5.1.0.RJDMIXM release-keys",
+    .build_fingerprint = "Xiaomi/apollopro_global/apollopro:11/RKQ1.200826.002/V12.5.1.0.RJDMIXM:user/release-keys",
 
     .nfc = true,
 };
