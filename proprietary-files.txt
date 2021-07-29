@@ -96,7 +96,6 @@ vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Camera
-system/system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 vendor/lib64/camera/com.qti.actuator.apollo_dw9800.so
 vendor/lib64/camera/com.qti.eeprom.apollo_ofilm_s5k3t2_gt24p64.so
 vendor/lib64/camera/com.qti.eeprom.apollo_ofilm_s5k5e9yx04_gt24p64.so
