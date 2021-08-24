@@ -15,8 +15,8 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_SCREEN_DENSITY := 440
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_apollon
-TARGET_RECOVERY_DEVICE_MODULES := libinit_apollon
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_apollon
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_apollon
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
