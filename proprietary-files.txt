@@ -1,4 +1,4 @@
-# All blobs below are extracted from apollo-user 11 RKQ1.200826.002 V12.5.1.0.RJDMIXM release-keys, unless pinned
+# All blobs below are extracted from apollo_global-user 11 RKQ1.200826.002 V12.5.5.0.RJDMIXM release-keys, unless pinned
 
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
@@ -58,11 +58,13 @@ vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
+vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib64/hw/audio.primary.kona.so
 vendor/lib64/liba2dpoffload.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudioroute_ext.so
+vendor/lib64/libresampler.so
 vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
 # ACDB
