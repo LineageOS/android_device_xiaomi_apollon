@@ -389,8 +389,6 @@ vendor/lib64/libcvp_common.so
 vendor/lib64/libcvpcpuRev_skel.so
 
 # Display calibration data
-vendor/etc/ltm_config_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml
-vendor/etc/mdss_dsi_j3s_37_02_0a_dsc_video_mi.xml
 vendor/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml
 
 # Fingerprint
