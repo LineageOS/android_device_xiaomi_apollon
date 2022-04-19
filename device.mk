@@ -26,5 +26,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    fstab.qcom_ramdisk
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/apollon/apollon-vendor.mk)
