@@ -19,6 +19,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_apollon
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_apollon
 
 # Kernel
+BOARD_MKBOOTIMG_ARGS += --header_version 2
 TARGET_KERNEL_CONFIG := vendor/apollo_defconfig
 
 # OTA assert
