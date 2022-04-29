@@ -370,8 +370,6 @@ vendor/firmware/apollo_ois.coeff
 vendor/firmware/apollo_ois.prog
 
 # Camera sensors
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 
