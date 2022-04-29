@@ -1,4 +1,4 @@
-# All blobs below are extracted from apollo_global-user 11 RKQ1.200826.002 V12.5.5.0.RJDMIXM release-keys, unless pinned
+# All blobs below are extracted from apollo_global-user 11 RKQ1.200826.002 V12.5.10.0.RJDMIXM release-keys, unless pinned
 
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
