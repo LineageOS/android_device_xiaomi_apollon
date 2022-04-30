@@ -1,4 +1,4 @@
-# All blobs below are extracted from apollo_global-user 11 RKQ1.200826.002 V12.5.10.0.RJDMIXM release-keys, unless pinned
+# All blobs below are extracted from apollo_eea-user 11 SKQ1.211006.001 V13.0.2.0.SJDEUXM release-keys, unless pinned
 
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
@@ -474,10 +474,14 @@ vendor/etc/elliptic_sensor.xml
 # Thermal
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
+vendor/etc/thermal-class0.conf
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
+vendor/etc/thermal-per-camera.conf
+vendor/etc/thermal-per-class0.conf
+vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
