@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fedf2130_191bae3f",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 352,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-05-10T13:02:38Z",
+      "side": 1,
+      "message": "this is different per panel",
+      "revId": "2cc982395908036fc583af60db823f89d5ecac76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a2ee374b_78e2664e",
+        "filename": "overlay/frameworks/base/packages/SystemUI/res/values/dimens.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-05-10T13:02:38Z",
+      "side": 1,
+      "message": "y value might also be different",
+      "revId": "2cc982395908036fc583af60db823f89d5ecac76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
