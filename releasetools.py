@@ -36,10 +36,11 @@ def AddImage(info, basename, dest):
 
 def AddImageRadio(info, basename, dest):
     name = basename
-    data = info.input_zip.read("RADIO/" + basename)
-    common.ZipWriteStr(info.output_zip, name, data)
-    info.script.Print("Patching {} image unconditionally...".format(dest.split('/')[-1]))
-    info.script.AppendExtra('package_extract_file("%s", "%s");' % (name, dest))
+    if ("RADIO/" + basename) in info.input_zip.namelist():
+        data = info.input_zip.read("RADIO/" + basename)
+        common.ZipWriteStr(info.output_zip, name, data)
+        info.script.Print("Patching {} image unconditionally...".format(dest.split('/')[-1]))
+        info.script.AppendExtra('package_extract_file("%s", "%s");' % (name, dest))
 
 def OTA_InstallEnd(info):
   info.script.Print("Patching firmware images...")
