@@ -51,5 +51,5 @@
 
     <!-- Location on the screen of the center of the physical power button. This is a reasonable
     default that should be overridden by device-specific overlays. -->
-    <dimen name="physical_power_button_center_screen_location_y">970px</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">990px</dimen>
 </resources>

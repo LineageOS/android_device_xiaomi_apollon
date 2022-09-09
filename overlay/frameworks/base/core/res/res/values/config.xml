@@ -351,7 +351,7 @@
     <array name="config_sfps_sensor_props_0" translatable="false">
         <item>local:4630946736638489729</item>
         <item>1080</item>
-        <item>965</item>
-        <item>115</item>
+        <item>880</item>
+        <item>200</item>
     </array>
 </resources>
