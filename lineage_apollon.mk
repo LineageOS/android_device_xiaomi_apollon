@@ -23,6 +23,6 @@ PRODUCT_MODEL := Xiaomi Mi 10T
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="apollo_global-user 12 RKQ1.211001.001 V13.0.5.0.SJDMIXM release-keys"
+    PRIVATE_BUILD_DESC="apollo_global-user 12 RKQ1.211001.001 V13.0.6.0.SJDMIXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/apollo_global/apollo:12/RKQ1.211001.001/V13.0.5.0.SJDMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/apollo_global/apollo:12/RKQ1.211001.001/V13.0.6.0.SJDMIXM:user/release-keys
