@@ -48,7 +48,7 @@ def OTA_InstallEnd(info):
   AddImage(info, "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")
   AddImage(info, "vbmeta_system.img", "/dev/block/bootdevice/by-name/vbmeta_system")
 
-  AddImageRadio(info, "abl.elf", "/dev/block/bootdevice/by-name/ablbak");
+  AddImageRadio(info, "abl.elf", "/dev/block/bootdevice/by-name/abl");
   AddImageRadio(info, "aop.mbn", "/dev/block/bootdevice/by-name/aop");
   AddImageRadio(info, "BTFM.bin", "/dev/block/bootdevice/by-name/bluetooth");
   AddImageRadio(info, "cmnlib.mbn", "/dev/block/bootdevice/by-name/cmnlib");
