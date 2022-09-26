@@ -324,9 +324,9 @@
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
     <string name="config_mainBuiltInDisplayCutout">
-	M 63,60
-	a 32,32 0 1 0 64,0
-	a 32,32 0 1 0 -64,0
+	M 60,60
+	a 30,30 0 1 0 60,0
+	a 30,30 0 1 0 -60,0
 	Z
 	@left
     </string>
