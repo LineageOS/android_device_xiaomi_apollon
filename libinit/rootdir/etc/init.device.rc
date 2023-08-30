@@ -1,0 +1,9 @@
+#
+# Copyright (C) 2023 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# NFC SKU
+on early-boot
+    setprop ro.boot.product.hardware.sku nfc
