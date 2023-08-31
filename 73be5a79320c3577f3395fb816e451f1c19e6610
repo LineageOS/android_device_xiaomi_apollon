@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c6d5d779_ecf5f67e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-08-31T14:06:59Z",
+      "side": 1,
+      "message": "You can\u0027t place it in vendor.prop?",
+      "revId": "73be5a79320c3577f3395fb816e451f1c19e6610",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
