@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "faeb9fb3_b9a490d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31334
+      },
+      "writtenOn": "2023-12-05T11:24:01Z",
+      "side": 1,
+      "message": "Device with white battery led needs to set this. See https://github.com/LineageOS/android_lineage-sdk/blob/be3574977af0cd7ff6dd7207456ec4ba1c3968e1/sdk/src/java/org/lineageos/internal/notification/LineageBatteryLights.java#L191",
+      "revId": "a3aee02e511998a9e33943e65a0d20ca6e0938f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
