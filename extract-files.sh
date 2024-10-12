@@ -28,7 +28,7 @@ EOF
             ;;
         vendor/lib/hw/audio.primary.apollon.so)
             [ "$2" = "" ] && return 0
-            sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_apollon\.so\x00\x00\x00\x00" "${2}"
+            sed -i "s|/vendor/lib/liba2dpoffload\.so|liba2dpoffload_apollon\.so\x00\x00\x00\x00|g" "${2}"
             ;;
         vendor/lib64/camera/components/com.mi.node.watermark.so)
             [ "$2" = "" ] && return 0
