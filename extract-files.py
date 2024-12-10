@@ -31,6 +31,27 @@ blob_fixups: blob_fixups_user_type = {
         ),
     'vendor/lib64/camera/components/com.mi.node.watermark.so': blob_fixup()
         .add_needed('libpiex_shim.so'),
+    (
+        'vendor/lib64/libalAILDC.so',
+        'vendor/lib64/libalLDC.so',
+        'vendor/lib64/libalhLDC.so',
+    ): blob_fixup()
+        .clear_symbol_version('AHardwareBuffer_allocate')
+        .clear_symbol_version('AHardwareBuffer_describe')
+        .clear_symbol_version('AHardwareBuffer_lock')
+        .clear_symbol_version('AHardwareBuffer_release')
+        .clear_symbol_version('AHardwareBuffer_unlock'),
+    (
+        'vendor/lib64/libMIAIHDRhvx_interface.so',
+        'vendor/lib64/libarcsoft_hdrplus_hvx_stub.so',
+        'vendor/lib64/libarcsoft_super_night_raw.so',
+        'vendor/lib64/libmialgo_rfs.so',
+    ): blob_fixup()
+        .clear_symbol_version('remote_handle_close')
+        .clear_symbol_version('remote_handle_invoke')
+        .clear_symbol_version('remote_handle_open')
+        .clear_symbol_version('remote_register_buf')
+        .clear_symbol_version('remote_register_buf_attr'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .binary_regex_replace(b'\x9A\x0A\x00\x94', b'\x1F\x20\x03\xD5'),
 }  # fmt: skip
