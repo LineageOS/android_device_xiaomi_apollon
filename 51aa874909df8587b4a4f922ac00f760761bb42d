@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef48de6f_a2181f59",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35763
+      },
+      "writtenOn": "2025-08-22T19:05:27Z",
+      "side": 1,
+      "message": "Shenghan Gao\n\n\"Hey, this commit actually breaks the NFC driver and causes NFC to be not recognized by the system (not appear in the system settings menu at all). Upon a deeper investigation, I found out why this issue occurred:\n\nLineageOS’s Soong config (vendor/lineage/config/BoardConfigSoong.mk#L76) always fallbacks to TARGET_INIT_VENDOR_LIB if the flag is set. Since sm8250-common still sets this variable android_device_xiaomi_sm8250/BoardConfigCommon.mk#L81, and cmi build script no longer does after the migration (commit 820e726 | AOSP), BoardConfigSoong ends up re-initializing the wrong vendor init using the common device\u0027s init file at the end, overriding cmi\u0027s device vendor init via soong done in device.mk. This breaks NFC on the device.\n\nAs a temporary workaround, resetting the flag to empty by adding the line TARGET_INIT_VENDOR_LIB :\u003d(empty) in cmi’s BoardConfig.mk overrides the flag from the common device config, fixing the issue (tested and confirmed). Although ideally, this should be addressed by migrating the Makefile vendor init in sm8250-common.\"",
+      "revId": "51aa874909df8587b4a4f922ac00f760761bb42d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
