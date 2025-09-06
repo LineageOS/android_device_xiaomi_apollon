@@ -12,6 +12,9 @@ include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_apollon
+
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/xiaomi/apollo.config
 
