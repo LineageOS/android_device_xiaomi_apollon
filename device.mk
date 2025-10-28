@@ -25,6 +25,9 @@ PRODUCT_PACKAGES += \
     libmegface \
     libpiex_shim
 
+# Init
+$(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_apollon)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
