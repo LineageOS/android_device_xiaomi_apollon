@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55683cde_3c7784a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2026-10-13T11:40:08Z",
+      "side": 1,
+      "message": "The end part of updater-script after patch\n\n\n# --- End patching dynamic partitions ---\n\nshow_progress(0.020000, 10);\nmap_partition(\"vendor\");\nmap_partition(\"product\");\nmap_partition(\"system_ext\");\nrun_program(\"/tmp/install/bin/backuptool.sh\", \"restore\", map_partition(\"system\"), \"ext4\");\npackage_extract_file(\"boot.img\", \"/dev/block/bootdevice/by-name/boot\");\nshow_progress(0.100000, 10);\nui_print(\"Patching firmware images...\");\npackage_extract_file(\"dtbo.img\", \"/dev/block/bootdevice/by-name/dtbo\");\npackage_extract_file(\"vbmeta.img\", \"/dev/block/bootdevice/by-name/vbmeta\");\npackage_extract_file(\"vbmeta_system.img\", \"/dev/block/bootdevice/by-name/vbmeta_system\");\nui_print(\"Flashing recovery image...\");\npackage_extract_file(\"recovery.img\", \"/dev/block/bootdevice/by-name/recovery\");\nset_progress(1.000000);",
+      "revId": "109c8ceceb3d9361c66b5707130e7c144bcfe057",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
